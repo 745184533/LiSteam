@@ -1,0 +1,218 @@
+﻿<style >
+
+.header {
+    background-color: black;
+    color: white;
+    line-height: 8px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+body {
+    margin: 0px;
+    background: url("https://i.postimg.cc/4NqHJYnr/h1.png");
+}
+
+.personal {
+    line-height: 45px;
+    margin-top: 0px;
+    background-color: #380000;
+}
+
+.sign_in, .sign_up, .shopping_cart {
+    background-color: #663366;
+    color: black;
+    float: right;
+    line-height: 20px;
+    margin-right: 0px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sign_up, .shopping_cart {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:link {
+        color: black
+    }
+
+    a:visited {
+        color: black
+    }
+
+    a:active {
+        color: black
+    }
+
+.personal a:hover {
+    color: #0099FF
+}
+
+.Main, .Library, .Community, .Personal-center {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+
+.personal div[name="drop-down-Menu"] {
+    display: none;
+    position: absolute;
+    background-color: #006666;
+    min-width: 60px;
+    color: black;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,205,0.5);
+}
+
+.Library:hover .LibraryList {
+    display: block;
+}
+
+.Community:hover .CommunityList {
+    display: block;
+}
+
+.Personal-center:hover .Personal-centerList {
+    display: block;
+}
+
+
+.personal a[name="littleT"] {
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.personal a[name="BigT"] {
+    color: white;
+}
+
+    .personal a[name="BigT"]:hover {
+        color: #3399FF;
+    }
+
+.search {
+    background-color: #C0C0C0;
+    background: url(https://i.postimg.cc/fb41b87x/backsearch.jpg);
+    opocity: 0.5;
+    height: 150px;
+    padding-top: 80px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 45px;
+    width: 400px;
+    margin: auto;
+    autocomplete ="off"
+}
+
+.input-kw {
+    width: 250px;
+    border-radius: 10px;
+    border: 0;
+    height: 25px;
+}
+
+.input-kws {
+    font-weight: 700;
+    border: none;
+    background-color: #3399FF;
+    width: 80px;
+    height: 30px;
+}
+
+
+#nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+    #nav ul li {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+#nav {
+    line-height: 30px;
+    background-color: #FAEBD7;
+    height: 600px;
+    width: 120px;
+    float: left;
+    padding_left: 10px;
+    font-weight: 700;
+}
+
+    #nav a:hover {
+        color: #FF9933;
+    }
+
+
+.section {
+    width: 550px;
+    float: left;
+    padding: 10px 20px;
+}
+
+    .section p {
+        font-size: 30px;
+        font-weight: 800;
+        margin-left: 10px;
+    }
+
+.in_New_product, .in_Big_sale, .in_Coming, .in_Live-game {
+    margin: 10px;
+    0px;
+    background: #6699CC;
+}
+
+
+
+.section div[name="external"] {
+    margin: 10px 0px;
+    padding: 10px;
+    line-height: 200px;
+    font-family: LiSu;
+    font-size: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.section a[name="externalBuy"] {
+    margin-left: 50px;
+}
+
+    .section a[name="externalBuy"]:hover {
+        color: #33CC00;
+    }
+
+
+.section img {
+    height: 200px;
+    width: 300px;
+    aligen: middle;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+</style >

@@ -1,0 +1,228 @@
+﻿<style >
+
+.header {
+    background-color: black;
+    color: white;
+    line-height: 8px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+body {
+    margin: 0px;
+}
+
+.personal {
+    line-height: 45px;
+    margin-top: 0px;
+    background-color: #380000;
+}
+
+.sign_in, .sign_up, .shopping_cart {
+    background-color: #663366;
+    color: black;
+    float: right;
+    line-height: 20px;
+    margin-right: 0px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sign_up, .shopping_cart {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:link {
+        color: black
+    }
+
+    a:visited {
+        color: black
+    }
+
+    a:active {
+        color: black
+    }
+
+.personal a:hover {
+    color: #0099FF
+}
+
+.Main, .Library, .Community, .Personal-center {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+
+.personal div[name="drop-down-Menu"] {
+    display: none;
+    position: absolute;
+    background-color: #006666;
+    min-width: 60px;
+    color: black;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,205,0.5);
+}
+
+.Library:hover .LibraryList {
+    display: block;
+}
+
+.Community:hover .CommunityList {
+    display: block;
+}
+
+.Personal-center:hover .Personal-centerList {
+    display: block;
+}
+
+
+.personal a[name="littleT"] {
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.personal a[name="BigT"] {
+    color: white;
+}
+
+    .personal a[name="BigT"]:hover {
+        color: #3399FF;
+    }
+
+
+.formats {
+    padding: 20px;
+    height: 1550px;
+    background: url("https://i.postimg.cc/4NqHJYnr/h1.png");
+}
+
+.format::after {
+    content: "is";
+    filter: blur(5px);
+}
+
+.Game-sale {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    height: 1250px;
+    width: 750px;
+    background-color: #33CCFF;
+    opacity: 0.75;
+}
+
+div[name="external"] {
+    margin-top: 20px;
+}
+
+
+.shoppicture {
+    float: left;
+}
+
+    .shoppicture img {
+        width: 300px;
+        height: 400px;
+    }
+
+.shoptitle {
+    float: left;
+    margin-left: 10px;
+    height: 420px;
+    width: 430px;
+    background-color: green;
+}
+
+.Delimiter {
+    height: 420px;
+    width: 2px;
+    border-left: 5px black solid;
+    float: left;
+}
+
+.shoptitle-text {
+    float: left;
+    margin-left: 20px;
+}
+
+#Gamename {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+
+
+button[name="version"] {
+    width: 90px;
+    height: 45px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+button:focus {
+    background-color: #CC6666;
+}
+
+span[name="money"] {
+    margin-left: 60px;
+    font-size: 16px;
+    background-color: green;
+    font-style: italic
+}
+
+div[name="buy"] {
+    margin: 30px 0px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+    div[name="buy"]:hover {
+        background-color: white;
+    }
+
+.shop-choose a {
+    font-size: 20px;
+}
+
+.shopIntroduction {
+    float: left;
+    height: 720px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 13px;
+    margin-right: 13px;
+    background-color: white;
+    padding: 15px;
+}
+
+    .shopIntroduction p[id="Gamename"] {
+        text-align: center;
+    }
+
+p[name="Introduction"] {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 25px;
+}
+
+</style >

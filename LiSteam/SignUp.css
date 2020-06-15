@@ -1,0 +1,176 @@
+﻿<style >
+
+.header {
+    background-color: black;
+    color: white;
+    line-height: 8px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+body {
+    margin: 0px;
+}
+
+.personal {
+    line-height: 45px;
+    margin-top: 0px;
+    background-color: #380000;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:link {
+        color: black
+    }
+
+    a:visited {
+        color: black
+    }
+
+    a:active {
+        color: black
+    }
+
+.personal a:hover {
+    color: #0099FF
+}
+
+.Main, .Library, .Community, .Personal-center {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+
+.personal div[name="drop-down-Menu"] {
+    display: none;
+    position: absolute;
+    background-color: #006666;
+    min-width: 60px;
+    color: black;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,205,0.5);
+}
+
+.Library:hover .LibraryList {
+    display: block;
+}
+
+.Community:hover .CommunityList {
+    display: block;
+}
+
+.Personal-center:hover .Personal-centerList {
+    display: block;
+}
+
+
+.personal a[name="littleT"] {
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.personal a[name="BigT"] {
+    color: white;
+}
+
+ .personal a[name="BigT"]:hover {
+        color: #3399FF;
+    }
+
+
+.formats {
+    padding: 20px;
+    height: 850px;
+    background-color: #CCFFFF;
+    background: url("https://i.postimg.cc/4NqHJYnr/h1.png");
+}
+
+.format::after {
+    content: "is";
+    filter: blur(5px);
+}
+
+.frame {
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 10px;
+    background-color: #000000;
+    height: 450px;
+    width: 550px;
+}
+
+.SignUp {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    background-color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.SignUp {
+    line-height: 50px;
+}
+
+.prompt {
+    height: 200px;
+    width: 30px;
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: STCaiyun;
+    float: left;
+    color: #FF6600;
+}
+
+.mainSign {
+    padding-left: 50px;
+    width: 450px;
+}
+
+.mainSign div[name="u1"] {
+        line-height: 60px;
+    }
+.mainSign div[name="s1"]{
+    line-height:120px;
+ }
+
+    .mainSign a {
+        text-decoration: none;
+        color: black;
+        padding-left: 250px;
+    }
+
+        .mainSign a:hover {
+            color: #FF0000;
+        }
+
+#submitButton {
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: STLiti;
+    background-color: #6666FF;
+}
+
+    #submitButton:hover {
+        color: #FF0000;
+    }
+
+.footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 25px;
+}
+
+</style >
