@@ -136,20 +136,20 @@ a {
 
 #nav ul {
     list-style-type: none;
-    padding-left: 10px;
-    font-size: 15px;
+    padding-left: 60px;
+    font-size: 25px;
 }
 
     #nav ul li {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
 #nav {
     line-height: 30px;
     background-color: #FAEBD7;
     height: 600px;
-    width: 120px;
+    width: 220px;
     float: left;
     padding_left: 10px;
     font-weight: 700;
@@ -161,7 +161,7 @@ a {
 
 
 .section {
-    width: 550px;
+    width: 850px;
     float: left;
     padding: 10px 20px;
 }
@@ -169,19 +169,17 @@ a {
     .section p {
         font-size: 30px;
         font-weight: 800;
-        margin-left: 10px;
+        margin-left: 80px;
     }
 
 .in_New_product, .in_Big_sale, .in_Coming, .in_Live-game {
-    margin: 10px;
-    0px;
+    margin-left: 100px;
     background: #6699CC;
 }
 
 
-
 .section div[name="external"] {
-    margin: 10px 0px;
+    margin: 10px 50px;
     padding: 10px;
     line-height: 200px;
     font-family: LiSu;
@@ -192,7 +190,7 @@ a {
 }
 
 .section a[name="externalBuy"] {
-    margin-left: 50px;
+    margin-left: 120px;
 }
 
     .section a[name="externalBuy"]:hover {

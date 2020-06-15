@@ -1,0 +1,244 @@
+﻿<style >
+
+.header {
+    background-color: black;
+    color: white;
+    line-height: 8px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+body {
+    margin: 0px;
+    background: url("https://i.postimg.cc/4NqHJYnr/h1.png");
+}
+
+.personal {
+    line-height: 45px;
+    margin-top: 0px;
+    background-color: #380000;
+}
+
+.sign_in, .sign_up, .shopping_cart {
+    background-color: #663366;
+    color: black;
+    float: right;
+    line-height: 20px;
+    margin-right: 0px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sign_up, .shopping_cart {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:link {
+        color: black
+    }
+
+    a:visited {
+        color: black
+    }
+
+    a:active {
+        color: black
+    }
+
+.personal a:hover {
+    color: #0099FF
+}
+
+.Main, .Library, .Community, .Personal-center {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+
+.personal div[name="drop-down-Menu"] {
+    display: none;
+    position: absolute;
+    background-color: #006666;
+    min-width: 60px;
+    color: black;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,205,0.5);
+}
+
+.Library:hover .LibraryList {
+    display: block;
+}
+
+.Community:hover .CommunityList {
+    display: block;
+}
+
+.Personal-center:hover .Personal-centerList {
+    display: block;
+}
+
+.personal a[name="littleT"] {
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.personal a[name="BigT"] {
+    color: white;
+}
+
+    .personal a[name="BigT"]:hover {
+        color: #3399FF;
+    }
+
+.shop {
+    height: 1500px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: #99FFCC;
+}
+
+    .shop h1 {
+        margin-left: 20px;
+    }
+
+
+input[name="All"] {
+    float: left;
+    zoom: 140%;
+}
+
+div[name="cartItem"] {
+    margin: 20px;
+    height: 270px;
+    width: 760px;
+    background-color: #C0C0C0;
+}
+
+    div[name="cartItem"] input {
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+
+
+.panel {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 250px;
+    width: 300px;
+    background-color: red;
+}
+
+    .panel img {
+        margin-left: 15px;
+        margin-top: 15px;
+        width: 250px;
+    }
+
+    .panel p {
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: 60px;
+    }
+
+.Unitprice {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 19px;
+    float: left;
+}
+
+
+.PM-button {
+    margin-top: 80px;
+    margin-left: 25px;
+    height: 50px;
+    float: left;
+    width: 100px;
+    background-color: #9999FF;
+}
+
+.Allprice {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 19px;
+    float: left;
+}
+
+.PM {
+    float: left;
+    font-size: 30px;
+    height: 50px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+}
+
+
+#number {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+#PM input {
+    width: 20px;
+}
+
+.deleteOp {
+    float: left;
+    margin-left: 25px;
+    margin-top: 95px;
+    background-color: green;
+}
+
+    .deleteOp button {
+        width: 60px;
+    }
+
+.bill p {
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+div[name="last"] {
+    float: right;
+    margin: 20px 50px;
+    height: 50px;
+    width: 150px;
+    background-color: #FF6633;
+    text-align: center;
+}
+
+    div[name="last"] a {
+        line-height: 50px;
+        font-size: 30px;
+    }
+
+        div[name="last"] a:hover {
+            color: #330066;
+        }
+
+
+.footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+</style >

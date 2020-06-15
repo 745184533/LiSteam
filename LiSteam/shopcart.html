@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/shopcart.css" rel="stylesheet" style="text/css" />
+    <style>
+        .header {
+            background-color: black;
+            color: white;
+            line-height: 8px;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>游戏之家</h1>
+    </div>
+    <div class="personal">
+        <div class="sign_in">
+            <p1><a href="SignIn.html">登陆</a></p1>
+        </div>
+        <div class="sign_up">
+            <p1><a href="SignUp.html">注册</a></p1>
+
+        </div>
+        <div class="shopping_cart">
+            <p1><a href="shopcart.html">购物车</a></p1>
+        </div>
+        <div class="Main" float=left>
+            <a href="Main.html" name="BigT">主页</a>
+            <span>&emsp;|</span>
+        </div>
+        <div class="Library" float=left>
+            <a href="main.html" name="BigT">库</a>
+            <span>&emsp;|</span>
+            <div class="LibraryList" name="drop-down-Menu">
+                <a href="main.html" name="littleT"><p>主页</p></a>
+                <a href="main.html" name="littleT"><p>收藏</p></a>
+                <a href="main.html" name="littleT"><p>下载</p></a>
+            </div>
+        </div>
+        <div class="Community" float=left>
+            <a href="main.html" name="BigT">社区</a>
+            <span>&emsp;|</span>
+            <div class="CommunityList" name="drop-down-Menu">
+                <a href="main.html" name="littleT"><p>讨论</p></a>
+                <a href="main.html" name="littleT"><p>市场</p></a>
+                <a href="main.html" name="littleT"><p>创意工坊</p></a>
+            </div>
+        </div>
+        <div class="Personal-center" float=left>
+            <a href="main.html" name="BigT">个人中心</a>
+            <span>&emsp;|</span>
+            <div class="Personal-centerList" name="drop-down-Menu">
+                <a href="main.html" name="littleT"><p>个人资料</p></a>
+                <a href="main.html" name="littleT"><p>好友</p></a>
+                <a href="main.html" name="littleT"><p>勋章</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="shop">
+        <h1>XXX的购物车</h1>
+        <div>
+            <input type="checkbox" name="All" value="All" /><span>
+                全选&emsp;&emsp;商品信息&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;单价&emsp;&emsp;&emsp;&emsp;&emsp;数量&emsp;&emsp;&emsp;&emsp; 金额&emsp;&emsp;&emsp; 操作
+            </span>         <br>
+            <div class="shop1" name="cartItem">
+                <input type="checkbox" name="All" />
+                <div class="panel">
+                    <img src="image/borderland2.jpg" />
+                    <p>borderland2</p>
+                </div>
+                <div class="Unitprice">$12</div>
+                <div class="PM-button">
+                    <div class="PM"><button type="button">-</button></div>
+                    <div class="PM" id="number">
+                        1
+                        <!--input type="text" placeholder=1 />-->
+                    </div>
+                    <div class="PM"><button type="button">+</button></div>
+                </div>
+                <div class="Allprice">$12</div>
+                <div class="deleteOp">
+                    <button type="button">删除</button>
+                </div>
+            </div>
+            <div class="shop2" name="cartItem">
+                <input type="checkbox" name="All" />
+                <div class="panel">
+                    <img src="image/GTA5.jpg" />
+                    <p>GTAV</p>
+                </div>
+                <div class="Unitprice">$25</div>
+                <div class="PM-button">
+                    <div class="PM"><button type="button">-</button></div>
+                    <div class="PM" id="number">
+                        1
+                        <!--input type="text" placeholder=1 />-->
+                    </div>
+                    <div class="PM"><button type="button">+</button></div>
+                </div>
+                <div class="Allprice">$25</div>
+                <div class="deleteOp">
+                    <button type="button">删除</button>
+                </div>
+            </div>
+            <div class="shop3" name="cartItem">
+                <input type="checkbox" name="All" />
+                <div class="panel">
+                    <img src="image/CSGO.jpg" />
+                    <p>CSGO</p>
+                </div>
+                <div class="Unitprice">$2</div>
+                <div class="PM-button">
+                    <div class="PM"><button type="button">-</button></div>
+                    <div class="PM" id="number">
+                        1
+                        <!--input type="text" placeholder=1 />-->
+                    </div>
+                    <div class="PM"><button type="button">+</button></div>
+                </div>
+                <div class="Allprice">$2</div>
+                <div class="deleteOp">
+                    <button type="button">删除</button>
+                </div>
+            </div>
+            <div class="shop4" name="cartItem">
+                <input type="checkbox" name="All" />
+                <div class="panel">
+                    <img src="image/Watch_dogs.jpg" />
+                    <p>Watch-dogs</p>
+                </div>
+                <div class="Unitprice">$22</div>
+                <div class="PM-button">
+                    <div class="PM"><button type="button">-</button></div>
+                    <div class="PM" id="number">
+                        1
+                        <!--input type="text" placeholder=1 />-->
+                    </div>
+                    <div class="PM"><button type="button">+</button></div>
+                </div>
+                <div class="Allprice">$22</div>
+                <div class="deleteOp">
+                    <button type="button">删除</button>
+                </div>
+            </div>
+        </div>
+        <div class="bill">
+            <p>共计：&emsp;&emsp;$61</p><br>
+            <div class="continuous" name="last">
+                <a href="main.html">继续购物</a>
+            </div>
+            <div class="continuous" name="last">
+                <a href="main.html">马上结算</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        copyright@李一凡   |   关于我们
+    </div>
+
+</body>
+</html>
